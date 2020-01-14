@@ -664,7 +664,7 @@ static int do_info(lsi_dev_t *d)
 
 static int do_readsbr(lsi_dev_t *d, const char *filename)
 {
-    uint8_t sbr[256];
+    uint8_t sbr[512];
     int ret;
 
     ret = lsi_i2c_init(d);
@@ -691,7 +691,7 @@ static int do_readsbr(lsi_dev_t *d, const char *filename)
 
 static int do_writesbr(lsi_dev_t *d, const char *filename)
 {
-    uint8_t sbr[256];
+    uint8_t sbr[512];
     int ret;
 
     ret = lsi_i2c_init(d);

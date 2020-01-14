@@ -1,3 +1,5 @@
+## This repo is hardcoded for D1 revision SAS2308 cards only (512byte SBR)
+
 ## lsirec - LSI SAS2008/2108 HBA low-level recovery tool for Linux
 
 Currently supports reading and writing the SBR and booting the card in host
